@@ -10,7 +10,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
@@ -91,5 +91,5 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>
