@@ -1,14 +1,10 @@
-
 <template>
- feat/register
-  <main>
+  <main class="max-w-[1280px] mx-auto py-0 px-22">
     <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-    <TheWelcome />
+      Hello world!
+    </h1>
 
-  <main max-w-[1280px] mx-auto py-0 px-22>
- main
+    <TheWelcome />
+    <RouterView />
   </main>
-  <RouterView />
 </template>
