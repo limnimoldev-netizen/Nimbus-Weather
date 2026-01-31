@@ -42,7 +42,7 @@
             </form>
 
             <p class="text-center mt-2   text-sm "> Already have an account? 
-                <a href="#" class="text-[#75b4e3] font-semibold  ">Log in</a> </p>
+                <a href="/login" class="text-[#75b4e3] font-semibold  ">Log in</a> </p>
         </div>
 
     </div>
