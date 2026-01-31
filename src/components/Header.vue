@@ -56,7 +56,7 @@
         <div
           class="h-10 w-10 bg-[#31255a] flex justify-center items-center rounded-xl transition hover:bg-[#75b4e3]"
         >
-          <i class="fa-solid fa-user relative text-[#ffffff] font-medium  after:asolute after:left-0 after:bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full"></i>
+          <a href="/register"><i class="fa-solid fa-user relative text-[#ffffff] font-medium  after:asolute after:left-0 after:bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full"></i></a>
         </div>
       </div>
     </div>

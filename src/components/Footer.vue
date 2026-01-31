@@ -1,5 +1,5 @@
 <template>
-   <footer class="bg-[#31255a] text-white">
+   <footer class="bg-[#FFFFFF] text-white">
   <div class="max-w-7xl mx-auto px-6 py-10">
 
     <!-- LOGO -->
@@ -22,7 +22,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Phnom Phen</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Crime + Justice</a></li>
           <li><a href="#" class="hover:text-white transition">Energy + Environment</a></li>
           <li><a href="#" class="hover:text-white transition">Extreme Weather</a></li>
@@ -32,7 +32,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">World</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Africa</a></li>
           <li><a href="#" class="hover:text-white transition">Americas</a></li>
           <li><a href="#" class="hover:text-white transition">Asia</a></li>
@@ -43,7 +43,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Politics</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Congress</a></li>
           <li><a href="#" class="hover:text-white transition">Supreme Court</a></li>
           <li><a href="#" class="hover:text-white transition">Key Races</a></li>
@@ -53,7 +53,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Business</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Markets</a></li>
           <li><a href="#" class="hover:text-white transition">Tech</a></li>
           <li><a href="#" class="hover:text-white transition">Media</a></li>
@@ -63,7 +63,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Opinion</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Political Op-Eds</a></li>
           <li><a href="#" class="hover:text-white transition">Social Commentary</a></li>
         </ul>
@@ -71,7 +71,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Health</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Fitness</a></li>
           <li><a href="#" class="hover:text-white transition">Wellness</a></li>
           <li><a href="#" class="hover:text-white transition">Parenting</a></li>
@@ -80,7 +80,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Entertainment</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Stars</a></li>
           <li><a href="#" class="hover:text-white transition">Screen</a></li>
           <li><a href="#" class="hover:text-white transition">Culture</a></li>
@@ -93,7 +93,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Tech</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Innovate</a></li>
           <li><a href="#" class="hover:text-white transition">Gadget</a></li>
           <li><a href="#" class="hover:text-white transition">Startups</a></li>
@@ -102,7 +102,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Style</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Fashion</a></li>
           <li><a href="#" class="hover:text-white transition">Design</a></li>
           <li><a href="#" class="hover:text-white transition">Luxury</a></li>
@@ -111,7 +111,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Travel</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Destinations</a></li>
           <li><a href="#" class="hover:text-white transition">Food & Drink</a></li>
           <li><a href="#" class="hover:text-white transition">Stay</a></li>
@@ -120,7 +120,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Sports</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Football</a></li>
           <li><a href="#" class="hover:text-white transition">Basketball</a></li>
           <li><a href="#" class="hover:text-white transition">Soccer</a></li>
@@ -129,7 +129,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Video</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Live TV</a></li>
           <li><a href="#" class="hover:text-white transition">Shows A-Z</a></li>
         </ul>
@@ -137,7 +137,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">About</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">About Us</a></li>
           <li><a href="#" class="hover:text-white transition">Our Mission</a></li>
           <li><a href="#" class="hover:text-white transition">Data Sources</a></li>
@@ -146,7 +146,7 @@
 
       <div>
         <h3 class="font-semibold mb-3">Contact</h3>
-        <ul class="space-y-1 text-sm text-gray-200">
+        <ul class="space-y-1 text-sm text-[#333333]">
           <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
           <li><a href="#" class="hover:text-white transition">Support</a></li>
           <li><a href="#" class="hover:text-white transition">Feedback</a></li>
@@ -155,7 +155,7 @@
     </div>
 
     <!-- Footer Bottom -->
-    <div class="border-t border-white/20 mt-10 pt-6 text-sm text-gray-300 flex flex-col sm:flex-row justify-between">
+    <div class="border-t border-white/20 mt-10 pt-6 text-sm text-[#333333] flex flex-col sm:flex-row justify-between">
       <p>© 2026 Weather News</p>
       <p>Powered by Weather API</p>
     </div>

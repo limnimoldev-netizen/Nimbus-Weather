@@ -1,9 +1,6 @@
  @import './base.css';
  @import "tailwindcss";
 
- @theme {
-  --font-poppins: Poppins, sans-serif;
-}
 
 
 /*@import "tailwindcss";
@@ -41,3 +38,7 @@ a,
     padding: 0 2rem;
   }
 } */
+
+@import './base.css';
+@import "tailwindcss";
+@import "tailwindcss";
