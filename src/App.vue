@@ -6,12 +6,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
 
 
-
-      <nav>
-        <RouterLink to="/home"></RouterLink>
-        <RouterLink to="/about"></RouterLink>
-      </nav>
-
   <RouterView />
 </template>
 

@@ -1,30 +1,47 @@
 <script setup>
-import { ref } from 'vue'
+import Weeklyweather from '@/components/Weeklyweather.vue';
+const today = {
+  temp: 31,
+  max: 33,
+  min: 25,
+  desc: 'Sunny',
+  icon: 'https://openweathermap.org/img/wn/01d.png'
+}
 
-const city = ref('Phnom Penh')
+const forecast = [
+  { name: 'Mon', icon: 'https://openweathermap.org/img/wn/01d.png', max: 32, min: 25, desc: 'Sunny' },
+  { name: 'Tue', icon: 'https://openweathermap.org/img/wn/02d.png', max: 30, min: 24, desc: 'Cloudy' },
+  { name: 'Wed', icon: 'https://openweathermap.org/img/wn/10d.png', max: 29, min: 23, desc: 'Rain' },
+  { name: 'Thu', icon: 'https://openweathermap.org/img/wn/01d.png', max: 33, min: 26, desc: 'Clear' },
+  { name: 'Fri', icon: 'https://openweathermap.org/img/wn/03d.png', max: 31, min: 25, desc: 'Clouds' },
+  { name: 'Sat', icon: 'https://openweathermap.org/img/wn/10d.png', max: 28, min: 23, desc: 'Rainy' },
+  { name: 'Sun', icon: 'https://openweathermap.org/img/wn/04d.png', max: 30, min: 24, desc: 'Overcast' }
+]
+
+
 </script>
+
 
 
 <template>
 
-
+  <!-- HERO -->
   <section class="bg-gradient-to-r from-[#31255a] to-[#4a3c8c] text-white">
     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold max-w-2xl mb-4">
-  {{ city }} Weather Forecast
-</h1>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Cambodia Weather Forecast
+      </h1>
+      <p class="text-lg text-slate-200  mx-auto mb-8">
+        Get real-time weather updates, temperature, humidity, and conditions
+        for cities across Cambodia.
+      </p>
+      <BR></BR>
 
-     <p class="text-lg text-slate-200 max-w-2xl mx-auto mb-4">
-  Get real-time weather updates, temperature, humidity, and conditions
-  for {{ city }}.
-</p>
-
-       <BR></BR><BR></BR>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl  mb-4">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <input
           type="text"
           placeholder="Search city (Phnom Penh)"
-          class="w-full sm:w-120 px-4 py-3 rounded-lg text-[#d1d5db] focus:outline-none border "
+          class="w-full sm:w-120 px-4 py-3 rounded-lg text-black focus:outline-none border"
         />
         <button
           class="px-6 py-3 rounded-lg font-medium
@@ -38,51 +55,34 @@ const city = ref('Phnom Penh')
     </div>
   </section>
 
-
+  <!-- INFO SECTION -->
   <section class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="text-3xl font-bold text-center text-[#31255a] mb-10">
       What You Can See
     </h2>
+      
 
-    <BR></BR>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-[#333333] font-roboto mb-2"> Temperature</h3>
-        <p class="text-gray-600">
-          See current temperature in Celsius for each city in Cambodia.
-        </p>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-[#333333] font-roboto mb-2"> Weather Condition</h3>
-        <p class="text-gray-600">
-          Know if the weather is sunny, cloudy, rainy, or stormy.
-        </p>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-[#333333] font-roboto mb-2"> Humidity</h3>
-        <p class="text-gray-600">
-          Check humidity level to plan your day better.
-        </p>
-      </div>
-    </div>
+     <div class="min-h-screen p-8">
+    <Weeklyweather :forecast="forecast" />
+  </div>
+      
   </section>
 
-
+  <!-- SAMPLE WEATHER -->
   <section class="bg-slate-100 py-16">
     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-[#333333] font-roboto text-[#31255a] mb-8">
+      <h2 class="text-3xl font-bold text-[#31255a] mb-8">
         Today in Phnom Penh
       </h2>
 
-      <div class="bg-black max-w-md mx-auto rounded-xl shadow p-6">
-        <p class="text-lg"> 30 °C</p>
-        <p class="capitalize"> clear sky</p>
-        <p> Humidity: 60%</p>
+      <div class="bg-white max-w-md mx-auto rounded-xl shadow p-6">
+        <p class="text-lg">🌡 30 °C</p>
+        <p class="capitalize">☀️ clear sky</p>
+        <p>💧 Humidity: 60%</p>
       </div>
     </div>
   </section>
 
-</template>
+
+  </template>
