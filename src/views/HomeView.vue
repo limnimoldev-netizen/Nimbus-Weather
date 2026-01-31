@@ -7,4 +7,6 @@
     <TheWelcome />
     <RouterView />
   </main>
+  <RouterView />
+ 
 </template>
