@@ -102,7 +102,3 @@ feat/header
 </template> -->
 
 <template></template>
-
-  </WelcomeItem> 
-</template>
- main
