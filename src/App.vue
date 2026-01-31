@@ -13,3 +13,15 @@ import Header from './components/Header.vue';
   <RouterView />
 </template>
 
+</script>
+
+<template>
+  <Footer />
+  <RouterView />
+</template>
+
+
+
+
+
+   
