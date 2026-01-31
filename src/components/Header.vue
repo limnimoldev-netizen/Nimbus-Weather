@@ -16,7 +16,7 @@
   </RouterLink>
 
   <div class="relative group">
-    <button class="flex items-center gap-2 px-5 py-2 rounded-full font-medium transition-all duration-300 
+    <button class="flex items-center gap-2 px-5 py-2 rounded-full font-roboto transition-all duration-300 
        text-[#333333] 
       hover:bg-[#75b4e3] hover:text-[#31255a]">
       Weather
@@ -31,12 +31,12 @@
     </div>
   </div>
 
-  <RouterLink to="/about" class="relative text-[#333333] font-medium transition hover:text-blue-600 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">About</RouterLink>
+  <RouterLink to="/about" class="relative text-[#333333] font-roboto transition hover:text-blue-600 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">About</RouterLink>
 
-  <RouterLink to="/new" class="relative text-[#333333] font-medium transition hover:text-blue-600 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">New</RouterLink>
+  <RouterLink to="/new" class="relative text-[#333333] font-roboto transition hover:text-blue-600 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">New</RouterLink>
 
   <div class="relative group">
-    <button class="flex items-center gap-2 px-5 py-2 rounded-full font-medium transition-all duration-300 
+    <button class="flex items-center gap-2 px-5 py-2 rounded-full font-roboto transition-all duration-300 
       text-[#333333] 
       hover:bg-[#75b4e3] hover:text-[#31255a]">
       Sitting
