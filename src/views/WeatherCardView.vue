@@ -1,4 +1,8 @@
+<script>
+import WeatherCard from '@/components/WeatherCard.vue';
+</script>
 <template>
+  <WeatherCard/>
     <div class="min-h-screen bg-gray-100 flex items-center justify-center">
   <div class="bg-blue-500 text-white rounded-xl p-6 w-full max-w-sm shadow-lg">
     <h2 class="text-2xl font-bold mb-2">Phnom Penh</h2>
