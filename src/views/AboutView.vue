@@ -1,18 +1,3 @@
-<!-- <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style> -->
 
 <template>
     <aside class="w-64 p-6 border-r border-white/10">
@@ -63,3 +48,4 @@
         
     </main>
 </template>
+ main

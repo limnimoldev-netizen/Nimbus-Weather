@@ -4,7 +4,22 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
 
-  <RouterView />
-</template>
+
+  <script setup>
+  import { RouterView }  from 'vue-router';
+  import Header from '@/components/Header.vue';
+  import Footer from '@/components/Footer.vue';
+  import TheWelcome from '@/components/TheWelcome.vue';
+  import RegisterView from './views/RegisterView.vue';
+  </script>
 
 
+
+  <template>
+
+    
+    <Header/>
+    <RouterView />
+    <Footer />
+    
+  </template>
