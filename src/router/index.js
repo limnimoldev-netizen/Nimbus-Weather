@@ -22,8 +22,8 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/setting',
-      name: 'setting',
+      path: '/sitting',
+      name: 'sitting',
       component: () => import('../views/SettingView.vue'),
     },
 
