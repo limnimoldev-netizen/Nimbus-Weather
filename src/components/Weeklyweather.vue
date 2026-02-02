@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <div
-    class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 text-white"
+    class=" backdrop-blur-lg rounded-2xl shadow-xl p-6 text-white"
   >
     <h2 class="text-xl font-semibold mb-4">
       7-Day Forecast
@@ -21,7 +21,7 @@ defineProps({
     <BR></BR>
 
     <div
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-4"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-10 bg-[#]"
     >
       <div
         v-for="(day, index) in forecast"

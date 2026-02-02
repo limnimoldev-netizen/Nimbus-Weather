@@ -9,7 +9,7 @@ const today = {
 }
 
 const forecast = [
-  { name: 'Mon', icon: 'https://openweathermap.org/img/wn/01d.png', max: 32, min: 25, desc: 'Sunny' },
+  { name: 'Mon', icon: 'http://www.w3.org/2000/svg"', max: 32, min: 25, desc: 'Sunny' },
   { name: 'Tue', icon: 'https://openweathermap.org/img/wn/02d.png', max: 30, min: 24, desc: 'Cloudy' },
   { name: 'Wed', icon: 'https://openweathermap.org/img/wn/10d.png', max: 29, min: 23, desc: 'Rain' },
   { name: 'Thu', icon: 'https://openweathermap.org/img/wn/01d.png', max: 33, min: 26, desc: 'Clear' },
@@ -58,12 +58,12 @@ const forecast = [
   <!-- INFO SECTION -->
   <section class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="text-3xl font-bold text-center text-[#31255a] mb-10">
-      What You Can See
+      Information
     </h2>
       
 
 
-     <div class="min-h-screen p-8">
+     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
     <Weeklyweather :forecast="forecast" />
   </div>
       
