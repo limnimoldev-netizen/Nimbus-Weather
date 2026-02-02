@@ -10,7 +10,7 @@ const today = {
 }
 
 const forecast = [
-  { name: 'Mon', icon: 'http://www.w3.org/2000/svg"', max: 32, min: 25, desc: 'Sunny' },
+  { name: 'Mon', icon: 'https://openweathermap.org/img/wn/10d.png', max: 32, min: 25, desc: 'Sunny' },
   { name: 'Tue', icon: 'https://openweathermap.org/img/wn/02d.png', max: 30, min: 24, desc: 'Cloudy' },
   { name: 'Wed', icon: 'https://openweathermap.org/img/wn/10d.png', max: 29, min: 23, desc: 'Rain' },
   { name: 'Thu', icon: 'https://openweathermap.org/img/wn/01d.png', max: 33, min: 26, desc: 'Clear' },
@@ -40,25 +40,25 @@ const forecast = [
 </template>
 
   <!-- HERO -->
-  <section class="bg-gradient-to-r from-[#31255a] to-[#4a3c8c] text-white">
-    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">
-        Cambodia Weather Forecast
+  <section class=" min-h-screen bg-gradient-to-r from-[#31255a] to-[#4a3c8c] text-[333333] bg-[url('https://openweathermap.org//payload/api/media/file/clouds_bg.jpg')]">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center ">
+    
+      <h1 class="text-white md:text-5xl font-bold mb-4">
+        Smarter Weather <br> for Everything You Build
       </h1>
-      <p class="text-lg text-slate-200  mx-auto mb-8">
-        Get real-time weather updates, temperature, humidity, and conditions
-        for cities across Cambodia.
+      <p class="text-lg text-slate-200  mx-auto mb-4">
+        From real-time forecasts to 45+ years of global climate history grade weather <br> data for developers, analysts, and businesses worldwide.
       </p>
-      <BR></BR>
+      <BR></BR><BR></BR>
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <input
           type="text"
-          placeholder="Search city (Phnom Penh)"
-          class="w-full sm:w-120 px-4 py-3 rounded-lg text-black focus:outline-none border"
+          placeholder="Enter City ..."
+          class="w-full sm:w-120 px-4 py-3 rounded-lg text-white focus:outline-none border"
         />
         <button
-          class="px-6 py-3 rounded-lg font-medium
+          class="px-6 py-3 rounded-2xl font-medium
                  bg-white text-[#31255a]
                  hover:bg-[#75b4e3] hover:text-[#31255a]
                  transition"
@@ -66,6 +66,10 @@ const forecast = [
           Find Weather
         </button>
       </div>
+      <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20  ">
+    <Weeklyweather :forecast="forecast" />
+  </div>
+      
     </div>
   </section>
 
@@ -74,12 +78,6 @@ const forecast = [
     <h2 class="text-3xl font-bold text-center text-[#31255a] mb-10">
       Information
     </h2>
-      
-
-
-     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-    <Weeklyweather :forecast="forecast" />
-  </div>
       
   </section>
 
