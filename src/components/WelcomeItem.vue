@@ -12,12 +12,7 @@
   </div>
 </template>
 
-<style scoped>
-.item {
-  margin-top: 2rem;
-  display: flex;
-  position: relative;
-}
+
 
 .details {
   flex: 1;
@@ -84,3 +79,4 @@ h3 {
   }
 }
 </style> -->
+

@@ -10,4 +10,5 @@
 @import './base.css';
 @import "tailwindcss";
 @import "tailwindcss";
+@tailwind utilities;
 

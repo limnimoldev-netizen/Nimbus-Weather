@@ -1,4 +1,5 @@
 <template>
+  
   <header
     class="sticky top-0 z-50 bg-[#FFFFFF] backdrop-blue border-b border-gray-200 shadow-sm"
   >
@@ -48,4 +49,5 @@
       </div>
     </div>
   </header>
+
 </template>
