@@ -1,16 +1,19 @@
 <script setup>
-import { RouterView } from 'vue-router';
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
-import HelloWorld from './components/HelloWorld.vue'; 
+import { RouterLink, RouterView } from 'vue-router'
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import RegisterView from './views/RegisterView.vue';
+
 </script>
 
 
 
 
-  <template>
+ <template>
     <Header/>
     <RouterView />
 
     <Footer />
+
+
   </template>
