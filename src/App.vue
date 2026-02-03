@@ -6,12 +6,14 @@ import RegisterView from './views/RegisterView.vue';
 
 </script>
 
-<template>
 
-    
+
+
+ <template>
     <Header/>
-    <RouterLink />
     <RouterView />
+
     <Footer />
-    
+
+
   </template>
