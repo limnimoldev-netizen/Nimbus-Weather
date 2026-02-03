@@ -18,9 +18,39 @@ import WeatherCard from '@/components/WeatherCard.vue'
 
         </div>
 
-
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+            <WeatherCard 
+            city="London" 
+            temp="15°C" 
+            location="UK" 
+            wind="5 km/h"
+            />
+            <WeatherCard 
+            city="New York" 
+            temp="20°C" 
+            location="USA" 
+            wind="8 km/h"
+            />
+            <WeatherCard 
+            city="Tokyo" 
+            temp="25°C" 
+            location="Japan" 
+            wind="3 km/h"
+            />
+            <WeatherCard 
+            city="Paris" 
+            temp="18°C" 
+            location="France" 
+            wind="6 km/h"
+            />
+            <WeatherCard 
+            city="Sydney" 
+            temp="22°C" 
+            location="Australia" 
+            wind="7 km/h"
+            />
         
-
+        </div>
 
     </div>
 
