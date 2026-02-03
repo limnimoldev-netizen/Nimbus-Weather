@@ -1,4 +1,5 @@
 
+
 <script setup>
 import Weeklyweather from '@/components/Weeklyweather.vue';
 const today = {
@@ -30,8 +31,15 @@ const forecast = [
   <div class=" max-w-[1280px] mx-auto display: flex; flex-direction: column; flex-wrap: wrap;">
 
   </div>
+<template>
+  <main class="max-w-[1280px] mx-auto py-0 px-22">
+    
 
+
+    <TheWelcome />
+    <RouterView />
   </main>
+
   <RouterView />
 
   <!-- hero -->
