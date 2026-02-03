@@ -18,8 +18,6 @@ const forecast = [
   { name: 'Sat', icon: 'https://openweathermap.org/img/wn/10d.png', max: 28, min: 23, desc: 'Rainy' },
   { name: 'Sun', icon: 'https://openweathermap.org/img/wn/04d.png', max: 30, min: 24, desc: 'Overcast' }
 ]
-
-
 </script>
 
 
