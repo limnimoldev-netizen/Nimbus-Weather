@@ -19,30 +19,7 @@ import WeatherCard from '@/components/WeatherCard.vue'
         </div>
 
 
-        <div class="flex  gap-4 p-10">
-
-            <WeatherCard
-            city="" 
-            temp="72°F" 
-            location="Manhattan" 
-            status="Sunny" 
-            wind="5 km/h"/>
-            
-            <WeatherCard 
-            city="Los Angeles" 
-            temp="85°F" 
-            location="Hollywood" 
-            status="Partly Cloudy" 
-            wind="10 km/h"/>
-
-            <WeatherCard 
-            city="Chicago" 
-            temp="68°F" 
-            location="Downtown" 
-            status="Rainy" 
-            wind="15 km/h"/>
-
-        </div>
+        
 
 
     </div>
