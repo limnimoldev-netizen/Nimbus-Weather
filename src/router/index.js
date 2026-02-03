@@ -22,6 +22,12 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
+    {
+      path: '/sitting',
+      name: 'sitting',
+      component: () => import('../views/SettingView.vue'),
+    },
+
 
     {
       
@@ -50,9 +56,7 @@ const router = createRouter({
 
   ],
 
-  
-  
-  
+
 })
 
 export default router
