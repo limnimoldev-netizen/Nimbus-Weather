@@ -1,5 +1,13 @@
+
 <script setup>
-import WeeklyWeather from '@/components/WeeklyWeather.vue'
+import Weeklyweather from '@/components/Weeklyweather.vue';
+const today = {
+  temp: 31,
+  max: 33,
+  min: 25,
+  desc: 'Sunny',
+  icon: 'https://openweathermap.org/img/wn/01d.png'
+}
 
 const forecast = [
   { name: 'Mon', icon: 'https://openweathermap.org/img/wn/10d.png', max: 32, min: 25, desc: 'Sunny' },
@@ -10,55 +18,84 @@ const forecast = [
   { name: 'Sat', icon: 'https://openweathermap.org/img/wn/10d.png', max: 28, min: 23, desc: 'Rainy' },
   { name: 'Sun', icon: 'https://openweathermap.org/img/wn/04d.png', max: 30, min: 24, desc: 'Overcast' }
 ]
+
+
 </script>
 
+
+
+
 <template>
-  <main class="max-w-[1280px] mx-auto">
+  <main max-w-[1280px] mx-auto py-0 px-22>
+  <div class=" max-w-[1280px] mx-auto display: flex; flex-direction: column; flex-wrap: wrap;">
 
-    <!-- HERO -->
-    <section class="min-h-screen bg-gradient-to-r from-[#31255a] to-[#4a3c8c] text-white">
-      <div class="px-6 py-20 text-center">
+  </div>
 
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">
-          Smarter Weather <br /> for Everything You Build
-        </h1>
+  </main>
+  <RouterView />
 
-        <p class="text-slate-200 mb-8">
-          Real-time forecasts for developers and businesses
-        </p>
+  <!-- hero -->
+  <section class=" min-h-screen bg-gradient-to-r from-[#31255a] to-[#4a3c8c] text-[333333] bg-[url('https://openweathermap.org//payload/api/media/file/clouds_bg.jpg')]">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center ">
+    
+      <h1 class="text-white md:text-5xl font-bold mb-4">
+        Smarter Weather <br> for Everything You Build
+      </h1>
+      <p class="text-lg text-slate-200  mx-auto mb-4">
+        From real-time forecasts to 45+ years of global climate history grade weather <br> data for developers, analysts, and businesses worldwide.
+      </p>
+      <BR></BR><BR></BR>
 
-        <!-- Search -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <input
-            type="text"
-            placeholder="Enter City ..."
-            class="px-4 py-3 rounded-lg bg-white/20 border border-white/40 text-white"
-          />
-          <button
-            class="px-6 py-3 rounded-xl bg-white text-[#31255a] hover:bg-[#75b4e3] transition"
-          >
-            Find Weather
-          </button>
-        </div>
 
-        <!-- Weekly Weather -->
-        <WeeklyWeather :forecast="forecast" />
+      <!-- search -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input
+          type="text"
+          placeholder="Enter City ..."
+          class="w-full sm:w-120 px-4 py-3 rounded-lg text-white focus:outline-none border"
+        />
+        <button
+          class="px-6 py-3 rounded-2xl font-medium
+                 bg-white text-[#31255a]
+                 hover:bg-[#75b4e3] hover:text-[#31255a]
+                 transition"
+        >
+          Find Weather
+        </button>
+
+        <!-- Weeklyweather -->
+
 
       </div>
-    </section>
+      <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-20  ">
+    <Weeklyweather :forecast="forecast" />
+  </div>
+      
+    </div>
+  </section>
 
-    <!-- TODAY CARD -->
-    <section class="bg-slate-100 py-16 text-center">
+   <!-- today and hourly  -->
+
+  <section class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-3xl font-bold text-center text-[#31255a] mb-10">
+      Information
+    </h2>
+      
+  </section>
+
+  <section class="bg-slate-100 py-16">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl font-bold text-[#31255a] mb-8">
         Today in Phnom Penh
       </h2>
 
-      <div class="bg-white max-w-md mx-auto rounded-xl shadow-lg p-6">
-        <p class="text-xl font-semibold">🌡 30°C</p>
-        <p class="capitalize">☀️ clear sky</p>
-        <p>💧 Humidity: 60%</p>
+      <div class="bg-white max-w-md mx-auto rounded-xl shadow p-6">
+        <p class="text-lg"> 30 °C</p>
+        <p class="capitalize"> clear sky</p>
+        <p> Humidity: 60%</p>
       </div>
-    </section>
-
-  </main>
+    </div>
+  </section>
 </template>
+
+
