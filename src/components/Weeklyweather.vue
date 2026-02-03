@@ -1,8 +1,4 @@
 <script setup>
-/*
-Props we receive from parent
-forecast = array of 7 days weather
-*/
 defineProps({
   forecast: {
     type: Array,
@@ -12,43 +8,26 @@ defineProps({
 </script>
 
 <template>
-  <div
-    class=" backdrop-blur-lg rounded-2xl shadow-xl p-6 text-white"
-  >
-    <h2 class="text-xl font-semibold mb-4">
-      7-Day Forecast
-    </h2>
-    <BR></BR>
+  <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-4">
 
     <div
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-10 bg-[#]"
+      v-for="day in forecast"
+      :key="day.name"
+      class="bg-white/20 backdrop-blur-lg rounded-xl p-4 text-center shadow hover:scale-105 transition"
     >
-      <div
-        v-for="(day, index) in forecast"
-        :key="index"
-        class=""
-      >
-        <!-- Day -->
-        <p class="font-medium mb-2">
-          {{ day.name }}
-        </p>
+      <p class="font-semibold mb-2">{{ day.name }}</p>
 
-        <!-- Icon -->
-        <img
-          :src="day.icon"
-          class="w-12 h-12 mx-auto"
-        />
+      <img
+        :src="day.icon"
+        class="mx-auto w-12 h-12"
+      />
 
-        <!-- Temp -->
-        <p class="mt-2 font-semibold">
-          {{ day.max }}° / {{ day.min }}°
-        </p>
+      <p class="text-sm mt-2">{{ day.desc }}</p>
 
-        <!-- Description -->
-        <p class="text-xs text-slate-200 mt-1">
-          {{ day.desc }}
-        </p>
-      </div>
+      <p class="text-sm font-medium mt-1">
+        {{ day.max }}° / {{ day.min }}°
+      </p>
     </div>
+
   </div>
 </template>
