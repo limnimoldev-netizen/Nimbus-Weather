@@ -2,29 +2,36 @@
   <div class="min-h-screen bg-white text-slate-800">
 
     <!-- Hero Section -->
-    <section
-      class="bg-gradient-to-b from-sky-100 to-white
-             px-6 md:px-10
-             py-16 md:py-24
-             flex flex-col md:flex-row
-             items-center justify-between
-             gap-10">
+   <section
+  class="relative
+         px-6 md:px-10
+         py-16 md:py-24
+         flex flex-col md:flex-row
+         items-center justify-between
+         gap-10
+         bg-cover bg-center"
+  style="background-image: url('/public/wind.jpeg');"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-b from-sky-100/0 to-white/50"></div>
 
-      <div class="max-w-xl text-center md:text-left">
-        <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
-          About Us<br class="hidden md:block" />
-        </h1>
-        <p class="text-slate-600 leading-relaxed">
-          We believe staying informed shouldn’t be complicated.
-          SkyBound turns atmospheric data into simple,
-          actionable insights for your daily life.
-        </p>
-      </div>
+  <!-- Content -->
+  <div class="relative max-w-xl text-center md:text-left">
+    <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
+      About Us<br class="hidden md:block" />
+    </h1>
+    <p class="text-slate-700 leading-relaxed">
+      We believe staying informed shouldn’t be complicated.
+      SkyBound turns atmospheric data into simple,
+      actionable insights for your daily life.
+    </p>
+  </div>
 
-      <div class="text-6xl md:text-8xl">
-        ☀️☁️
-      </div>
-    </section>
+  <div class="relative text-6xl md:text-8xl">
+    ☀️☁️
+  </div>
+</section>
+
 
     <!-- Mission Section -->
     <section class="px-6 md:px-10 py-16 text-center">
@@ -154,14 +161,40 @@
     </div>
   </section>
 
-  <section class="min-h bg-white text-slate-800 px-6 py-16 ">
-    <div class="bg-gradient-to-r from-blue-300 to-blue-500 rounded-3xl p-12 flex flex-col md:flex-row items-center justify-between text-white">
-      <h2 class="text-3xl font-bold mb-6 md:mb-0">Plan your day with confidence.</h2>
-      <div class="flex space-x-4">
-        <button class="bg-blue-700 hover:bg-blue-800 px-6 py-3 rounded-xl font-semibold transition">Subscribe Now</button>
-      </div>
+  <section class="min-h-[50vh] bg-white px-6 py-16 flex items-center">
+  <div class="w-full bg-blue-500 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between shadow-xl">
+    
+    <div class="mb-6 md:mb-0 text-center md:text-left max-w-xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-3 text-slate-800">
+        Stay in the loop 🌤️
+      </h2>
+      <p class="text-slate-600">
+        Enter your email to receive weather updates, alerts,
+        and early access to SkyBound features.
+      </p>
     </div>
-  </section>
+
+    <form class="flex w-full md:w-auto gap-3">
+      <input
+        type="email"
+        required
+        placeholder="Enter your email"
+        class="w-full md:w-72 px-4 py-3 rounded-xl text-slate-800
+               border border-slate-300
+               focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white"
+      />
+      <button
+        type="submit"
+        class="bg-blue-600 hover:bg-blue-700 text-white
+               px-6 py-3 rounded-xl font-semibold transition hover:scale-105"
+      >
+        Notify Me
+      </button>
+    </form>
+
+  </div>
+</section>
+
 
   </div>
 </template>
