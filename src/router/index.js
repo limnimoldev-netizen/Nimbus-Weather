@@ -1,16 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+ information
+import WeatherCardView from '../views/WeatherCardView.vue'
+import NewPageView from '../views/NewPageView.vue'
+import InformationPageView from '../views/InformationPageView.vue'
+
 import ContactView from '../views/ContactView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import LoginView from '../views/LoginView.vue'
 import WeatherView from '../views/WeatherView.vue'
 
-
+ main
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: HomeView,
     },
@@ -23,6 +28,22 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
+ information
+      path: '/weathercard',
+      name: 'weathercard',
+      component: WeatherCardView,
+    },
+    {
+      path: '/New',
+      name: 'newpage',
+      component: NewPageView,
+    },
+    {
+      path: '/infor',
+      name: 'information',
+      component: InformationPageView,
+    },
+
       path: '/sitting',
       name: 'sitting',
       component: () => import('../views/SettingView.vue'),
@@ -53,10 +74,8 @@ const router = createRouter({
     
     },
  
-
+main
   ],
-
-
 })
 
 export default router

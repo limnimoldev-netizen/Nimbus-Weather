@@ -25,9 +25,11 @@ Phnom Penh Storm Alert: Severe thunderstorm expected today with heavy rain and s
 Advice: Stay indoors, secure outdoor items, and expect possible localized flooding.
 </p>
 
-<button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
+<a href="/infor">
+    <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
+</a>
 </article>
 
 <hr class="border-slate-700">
@@ -47,9 +49,11 @@ Cambodia Storm Alert: Strong thunderstorm expected today with heavy rain and win
 Advice: Stay indoors, secure outdoor items, and watch for possible flooding.
 </p>
 
-<button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
+<a href="/infor">
+    <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
+</a>
 </article>
 
 <hr class="border-slate-700">
@@ -68,6 +72,7 @@ class="rounded-lg w-full mb-4 h-[400px] cursor-pointer"
 <p class="text-black">
 Asia Storm Alert: A severe thunderstorm is expected today across parts of the country, bringing heavy rainfall, strong
 winds, and occasional lightning. Weather conditions may reduce visibility, and localized flooding is possible in low-lying areas.
+
 </p>
 <br>
 <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
@@ -86,10 +91,10 @@ Read more
 <div class="bg-slate-800 p-6 rounded-lg">
 <h2 class="text-xl text-white font-semibold mb-4">Categories</h2>
 <ul class="space-y-3">
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Monsoon Regions of Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Tropical Climate Zones</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Arid & Desert Areas</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Mountain & Cold Regions</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Monsoon Regions of Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Tropical Climate Zones</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Arid & Desert Areas</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Mountain & Cold Regions</li>
 </ul>
 </div>
 
@@ -97,14 +102,14 @@ Read more
 <div class="bg-slate-800 p-6 rounded-lg">
 <h2 class="text-xl text-white font-semibold mb-4">Hot News</h2>
 <ul class="space-y-3">
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Monsoon rainfall updates across South & Southeast Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Heatwave conditions in South Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Typhoon activity in East Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Flood risks in major Asian river basins</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Drought concerns in Central Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Seasonal weather shifts in Southeast Asia</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Climate change effects on Asian weather</li>
-<li class="text-sky-400 hover:text-sky-300 cursor-pointer">→ Extreme weather alerts across Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Monsoon rainfall updates across South & Southeast Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Heatwave conditions in South Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Typhoon activity in East Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Flood risks in major Asian river basins</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Drought concerns in Central Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Seasonal weather shifts in Southeast Asia</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Climate change effects on Asian weather</li>
+<li class="text-sky-400 hover:text-sky-300 cursor-pointer">Extreme weather alerts across Asia</li>
 </ul>
 </div>
 
