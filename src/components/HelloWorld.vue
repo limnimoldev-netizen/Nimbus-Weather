@@ -7,7 +7,7 @@ defineProps({
 })
 </script>
 
-<template>
+<!-- <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
@@ -16,7 +16,7 @@ defineProps({
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
   </div>
-</template>
+</template> -->
 
 <style scoped>
 h1 {
@@ -29,7 +29,7 @@ h1 {
 h3 {
   font-size: 1.2rem;
 }
-
+/* 
 .greetings h1,
 .greetings h3 {
   text-align: center;
@@ -40,5 +40,5 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
-}
+} */
 </style>

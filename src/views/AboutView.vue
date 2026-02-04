@@ -1,3 +1,4 @@
+
 <template>
   <div class="min-h-screen bg-white text-slate-800">
 
@@ -198,3 +199,4 @@
 
   </div>
 </template>
+ main
