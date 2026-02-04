@@ -18,7 +18,10 @@ import WeatherCard from '@/components/WeatherCard.vue'
 
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        
+        
+        
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
             <WeatherCard 
             city="London" 
             temp="15°C" 
@@ -50,7 +53,7 @@ import WeatherCard from '@/components/WeatherCard.vue'
             wind="7 km/h"
             />
         
-        </div>
+        </div> -->
 
     </div>
 

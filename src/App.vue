@@ -10,7 +10,6 @@ import RegisterView from './views/RegisterView.vue';
 
     
     <Header/>
-    <RouterLink />
     <RouterView />
     <Footer />
     
