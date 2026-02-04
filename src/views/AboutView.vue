@@ -8,13 +8,13 @@
          px-6 md:px-10
          py-16 md:py-24
          flex flex-col md:flex-row
-         items-center justify-between
+         items-center justify-around
          gap-10
          bg-cover bg-center"
   style="background-image: url('/public/wind.jpeg');"
 >
   <!-- Overlay -->
-  <div class="absolute inset-0 bg-gradient-to-b from-sky-100/0 to-white/50"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-sky-100/0 to-white/90"></div>
 
   <!-- Content -->
   <div class="relative max-w-xl text-center md:text-left">
@@ -44,7 +44,7 @@
         planning, and peace of mind.
       </p>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 max-w-5xl mx-auto">
         <!-- Card -->
         <div class="bg-white border border-slate-200 rounded-2xl p-8
          shadow-sm
@@ -129,8 +129,8 @@
     </section>
 
     <section class="min-h bg-white text-slate-500 px-6 md:px-10">
-    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-8 pt-12">Our Journey</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-8 pt-12 pl-30">Our Journey</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 max-w-5xl mx-auto">
       <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
         <div class="text-3xl font-bold text-slate-900">12M+</div>
         <div class="text-sm text-slate-500 mt-1">Monthly Users</div>
@@ -162,40 +162,52 @@
     </div>
   </section>
 
-  <section class="min-h-[50vh] bg-white px-6 py-16 flex items-center">
-  <div class="w-full bg-blue-500 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between shadow-xl">
-    
-    <div class="mb-6 md:mb-0 text-center md:text-left max-w-xl">
-      <h2 class="text-3xl md:text-4xl font-bold mb-3 text-slate-800">
-        Stay in the loop 🌤️
+  <section class="min-h-[50vh] bg-white px-5 sm:px-6 py-16 md:py-20 flex items-center justify-center">
+  <div class="w-full max-w-5xl bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 md:p-10 lg:p-12 
+              flex flex-col md:flex-row items-center gap-8 md:gap-12 
+              shadow-xl border border-blue-100/60">
+
+    <!-- Text side -->
+    <div class="text-center md:text-left max-w-lg">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-slate-800">
+        Subscribe to SkyBound
       </h2>
-      <p class="text-slate-600">
-        Enter your email to receive weather updates, alerts,
-        and early access to SkyBound features.
+      <p class="text-slate-600 text-lg leading-relaxed">
+        Join our community and get exclusive updates, priority access to new features, 
+        personalized recommendations, and more — straight to your inbox.
       </p>
     </div>
 
-    <form class="flex w-full md:w-auto gap-3">
+    <!-- Form side -->
+    <form class="w-full md:min-w-[380px] flex flex-col sm:flex-row gap-4">
+      <label class="sr-only" for="email">Email address</label>
       <input
+        id="email"
         type="email"
+        name="email"
         required
-        placeholder="Enter your email"
-        class="w-full md:w-72 px-4 py-3 rounded-xl text-slate-800
-               border border-slate-300
-               focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white"
+        autocomplete="email"
+        placeholder="your@email.com"
+        class="w-full px-5 py-3.5 rounded-2xl text-slate-800
+               bg-white border border-slate-300
+               placeholder:text-slate-400
+               focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 focus:ring-opacity-50
+               transition duration-200 shadow-sm"
       />
       <button
         type="submit"
-        class="bg-blue-600 hover:bg-blue-700 text-white
-               px-6 py-3 rounded-xl font-semibold transition hover:scale-105"
+        class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 active:from-blue-800 active:to-indigo-800
+               text-white px-8 py-3.5 rounded-2xl font-semibold
+               shadow-md hover:shadow-lg
+               transition duration-200 hover:scale-[1.03] active:scale-100
+               whitespace-nowrap"
       >
-        Notify Me
+        Subscribe Now
       </button>
     </form>
 
   </div>
 </section>
-
 
   </div>
 </template>

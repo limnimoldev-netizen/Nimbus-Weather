@@ -1,10 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+ information
 import WeatherCardView from '../views/WeatherCardView.vue'
 import NewPageView from '../views/NewPageView.vue'
 import InformationPageView from '../views/InformationPageView.vue'
+information2
 import Information1PageView from '../views/Information1PageView.vue'
 import Information2PageView from '../views/Information2PageView.vue'
+=======
+
+import ContactView from '../views/ContactView.vue'
+import RegisterView from '../views/RegisterView.vue'
+import LoginView from '../views/LoginView.vue'
+import WeatherView from '../views/WeatherView.vue'
+
+ main
+ main
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -22,6 +33,7 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
+ information
       path: '/weathercard',
       name: 'weathercard',
       component: WeatherCardView,
@@ -36,6 +48,7 @@ const router = createRouter({
       name: 'information',
       component: InformationPageView,
     },
+ information2
     {
       path: '/infor1',
       name: 'information1',
@@ -46,6 +59,40 @@ const router = createRouter({
       name: 'information2',
       component: Information2PageView,
     },
+
+
+      path: '/sitting',
+      name: 'sitting',
+      component: () => import('../views/SettingView.vue'),
+    },
+
+
+    {
+      
+      path: "/register",
+      name: 'register',
+      component: () => import('../views/RegisterView.vue'),
+    
+    },
+
+    {
+      
+      path: "/login",
+      name: 'login',
+      component: () => import('../views/LoginView.vue'),
+    
+    },
+
+    {
+      
+      path: "/weather",
+      name: 'weather',
+      component: () => import('../views/WeatherView.vue'),
+    
+    },
+ 
+main
+ main
   ],
 })
 
