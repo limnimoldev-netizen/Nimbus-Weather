@@ -13,7 +13,7 @@ const emit = defineEmits(['update:modelValue']);
       playsinline
       class="absolute inset-0 w-full h-full object-cover"
     >
-      <source src="@/assets/cloud-bg.mp4" type="video/mp4" />
+      <source src="@/assets/wind-bg.mp4" type="video/mp4" />
     </video>
 
     <div class="absolute inset-0 bg-white/60 dark:bg-black/40 backdrop-blur-sm"></div>
