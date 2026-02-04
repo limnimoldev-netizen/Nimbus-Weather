@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
@@ -10,6 +10,12 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
+feat/header
+<div class="max-w-[1280px] mx-auto py-0 px-20 bg-red-100">
+  <h1>hello</h1>
+
+</div>
+
   <!-- <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
@@ -91,5 +97,8 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem> -->
-</template>
+ feat/register
+  </WelcomeItem>
+</template> -->
+
+<template></template>
