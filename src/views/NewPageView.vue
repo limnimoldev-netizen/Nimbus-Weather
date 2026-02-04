@@ -15,10 +15,11 @@
 The Weather Of Phnom Penh City
 </h1>
 
-<img
+<a href="/infor"><img
 src="/img/Rain31016.jpg"
 class="rounded-lg w-full mb-4 h-[400px] cursor-pointer"
 >
+</a>
 
 <p class="text-black mb-4">
 Phnom Penh Storm Alert: Severe thunderstorm expected today with heavy rain and strong winds.
@@ -39,17 +40,19 @@ Read more
     <h1 class="text-3xl text-black font-semibold mb-4">
 The Weather Of Cambodia
 </h1>
+<a href="/infor1">
 <img
 src="/img/cambodia-rain-.jpg"
 class="rounded-lg w-full mb-4 h-[400px] cursor-pointer"
 >
+</a>
 
 <p class="text-black mb-4">
 Cambodia Storm Alert: Strong thunderstorm expected today with heavy rain and winds.
 Advice: Stay indoors, secure outdoor items, and watch for possible flooding.
 </p>
 
-<a href="/infor">
+<a href="/infor1">
     <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
@@ -63,11 +66,12 @@ Read more
 <h1 class="text-3xl text-black font-semibold mb-4">
 Watch From Space When Stom In The Asia
 </h1>
-
+<a href="/infor2">
 <img
 src="/img/space.webp"
 class="rounded-lg w-full mb-4 h-[400px] cursor-pointer"
 >
+</a>
 
 <p class="text-black">
 Asia Storm Alert: A severe thunderstorm is expected today across parts of the country, bringing heavy rainfall, strong
@@ -75,9 +79,11 @@ winds, and occasional lightning. Weather conditions may reduce visibility, and l
 
 </p>
 <br>
+<a href="/infor2">
 <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
+</a>
 
 </article>
 

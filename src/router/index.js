@@ -4,12 +4,17 @@ import HomeView from '../views/HomeView.vue'
 import WeatherCardView from '../views/WeatherCardView.vue'
 import NewPageView from '../views/NewPageView.vue'
 import InformationPageView from '../views/InformationPageView.vue'
+information2
+import Information1PageView from '../views/Information1PageView.vue'
+import Information2PageView from '../views/Information2PageView.vue'
+=======
 
 import ContactView from '../views/ContactView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import LoginView from '../views/LoginView.vue'
 import WeatherView from '../views/WeatherView.vue'
 
+ main
  main
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +48,18 @@ const router = createRouter({
       name: 'information',
       component: InformationPageView,
     },
+ information2
+    {
+      path: '/infor1',
+      name: 'information1',
+      component: Information1PageView,
+    },
+    {
+      path: '/infor2',
+      name: 'information2',
+      component: Information2PageView,
+    },
+
 
       path: '/sitting',
       name: 'sitting',
@@ -75,6 +92,7 @@ const router = createRouter({
     },
  
 main
+ main
   ],
 })
 
