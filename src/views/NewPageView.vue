@@ -49,7 +49,7 @@ Cambodia Storm Alert: Strong thunderstorm expected today with heavy rain and win
 Advice: Stay indoors, secure outdoor items, and watch for possible flooding.
 </p>
 
-<a href="/infor">
+<a href="/infor1">
     <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
