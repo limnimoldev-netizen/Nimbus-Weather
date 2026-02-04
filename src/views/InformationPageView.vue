@@ -11,20 +11,20 @@
 
           <!-- Image -->
           <img
-            src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e"
+            src="/img/Rain31016.jpg"
             alt="City view"
             class="rounded-lg mb-6 w-full h-64 object-cover"
           />
 
           <!-- Article -->
-          <p class="mb-4 text-gray-400 leading-relaxed">
+          <p class="mb-4 text-gray-400 leading-relaxed text-justify">
             Asia experiences a wide range of weather patterns due to its vast
             geography. From intense monsoon rainfall in Southeast Asia to dry
             desert climates in Central Asia, the continent displays remarkable
             climate diversity.
           </p>
 
-          <p class="mb-4 text-gray-400 leading-relaxed">
+          <p class="mb-4 text-gray-400 leading-relaxed text-justify">
             Seasonal winds, ocean temperatures, and large landmasses influence
             rainfall distribution, storm formation, and temperature extremes.
             These systems directly affect agriculture, water resources, and
@@ -39,17 +39,31 @@
             of climate awareness and preparedness.”
           </blockquote>
 
-          <p class="mb-4 text-gray-400 leading-relaxed">
+          <p class="mb-4 text-gray-400 leading-relaxed text-justify">
             Climate change has intensified extreme events such as heatwaves,
             floods, droughts, and typhoons. Coastal regions face rising sea
             levels, while inland areas experience unpredictable rainfall
             patterns.
           </p>
 
-          <p class="text-gray-400 leading-relaxed">
+          <p class="text-gray-400 leading-relaxed text-justify">
             Strengthening forecasting systems, improving infrastructure, and
             promoting regional cooperation are critical steps toward building
             resilience against Asia’s evolving climate challenges.
+          </p>
+            <br>
+          <p class="text-gray-400 leading-relaxed text-justify">
+            Asia has very diverse weather, ranging from hot and humid tropical 
+            climates in Southeast Asia, strong monsoon seasons in South and East 
+            Asia, dry and extreme heat in West Asian deserts, cold temperate conditions 
+            in parts of East Asia, to freezing polar climates in Northern Asia. These 
+            different weather patterns are caused by Asia’s vast size, varied geography,
+            mountains, oceans, and seasonal wind systems. The monsoon rains are especially 
+            important because they provide water for farming but can also cause floods and 
+            landslides. In desert regions, extreme heat and low rainfall make water scarce 
+            and life more challenging. Overall, Asia’s weather strongly influences agriculture, 
+            natural resources, daily activities, population distribution, and the economy across 
+            the entire continent.
           </p>
         </div>
 

@@ -25,9 +25,11 @@ Phnom Penh Storm Alert: Severe thunderstorm expected today with heavy rain and s
 Advice: Stay indoors, secure outdoor items, and expect possible localized flooding.
 </p>
 
-<button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
+<a href="/infor">
+    <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
+</a>
 </article>
 
 <hr class="border-slate-700">
@@ -47,9 +49,11 @@ Cambodia Storm Alert: Strong thunderstorm expected today with heavy rain and win
 Advice: Stay indoors, secure outdoor items, and watch for possible flooding.
 </p>
 
-<button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
+<a href="/infor">
+    <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
 Read more
 </button>
+</a>
 </article>
 
 <hr class="border-slate-700">
@@ -68,6 +72,7 @@ class="rounded-lg w-full mb-4 h-[400px] cursor-pointer"
 <p class="text-black">
 Asia Storm Alert: A severe thunderstorm is expected today across parts of the country, bringing heavy rainfall, strong
 winds, and occasional lightning. Weather conditions may reduce visibility, and localized flooding is possible in low-lying areas.
+
 </p>
 <br>
 <button class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full cursor-pointer">
