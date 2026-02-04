@@ -1,9 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import WeatherCardView from '../views/WeatherCardView.vue'
-import NewPageView from '../views/NewPageView.vue'
-import InformationPageView from '../views/InformationPageView.vue'
-
 import ContactView from '../views/ContactView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import LoginView from '../views/LoginView.vue'
@@ -27,20 +23,6 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/weathercard',
-      name: 'weathercard',
-      component: WeatherCardView,
-    },
-    {
-      path: '/New',
-      name: 'newpage',
-      component: NewPageView,
-    },
-    {
-      path: '/infor',
-      name: 'information',
-      component: InformationPageView,
-    },
       path: '/sitting',
       name: 'sitting',
       component: () => import('../views/SettingView.vue'),

@@ -9,17 +9,7 @@
         windspeed : Number,
     });
 </script>
-<template>
-    <Search/>
-    <span>{{ location }}</span>
 
-defineProps({
-  city: String,
-  temp: String,
-  location: String,
-  wind: Number
-})
-</script>
 
 <template>
   
