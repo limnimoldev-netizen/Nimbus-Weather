@@ -1,14 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
 <script setup>
 import Weekweather from '@/components/Weekweather.vue'
 import { ref } from 'vue'
@@ -44,13 +34,6 @@ const hourly = ref([
 ])
 
 </script>
-
-
-
-
-
-
-
 
 
 <template>
