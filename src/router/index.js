@@ -94,6 +94,14 @@ const router = createRouter({
       component: () => import('../views/WeatherView.vue'),
     
     },
+
+    {
+      
+      path: "/search",
+      name: 'search',
+      component: () => import('../views/SearchView.vue'),
+    
+    },
  
   ],
 })
