@@ -24,4 +24,6 @@ defineProps({
       <span class="text-sm font-medium text-slate-500">{{ minTemp }}°</span>
     </div>
   </div>
+
 </template>
+

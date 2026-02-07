@@ -24,6 +24,7 @@ defineProps({
         
         <div class="flex items-baseline gap-1">
 
+
           <span class="text-2xl font-black text-white leading-none">{{ value }}</span>
 
           <span class="text-xs font-medium text-blue-100/60">{{ unit }}</span>
@@ -35,4 +36,20 @@ defineProps({
   </div>
 
 
+          <span class="text-2xl font-black text-white leading-none">{{ value }}</span>
+
+
+          <span class="text-xs font-medium text-blue-100/60">{{ unit }}</span>
+
+
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+  
 </template>
+
