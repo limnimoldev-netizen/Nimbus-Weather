@@ -96,8 +96,7 @@ const weeklyForecast = [
 
       </main>
 
-        
-        
+         
     </div>
   </div>
 </template>
