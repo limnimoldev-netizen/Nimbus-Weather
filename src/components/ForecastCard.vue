@@ -1,27 +1,23 @@
 <script setup>
-defineProps({
+const props = defineProps({
   day: String,
   icon: String,
-  maxTemp: [Number, String],
-  minTemp: [Number, String]
+  maxTemp: Number,
+  minTemp: Number
 })
 </script>
 
-
 <template>
-  <div class="flex items-center justify-between p-4 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl hover:bg-white/10 transition-all duration-300 group cursor-default">
-    <div class="w-12">
-      <p class="text-sm font-bold text-slate-400 group-hover:text-blue-300 transition-colors">{{ day }}</p>
+  <div
+    class="flex justify-between items-center bg-white/5 backdrop-blur-md border border-white/20 rounded-2xl p-4 shadow-md hover:scale-105 transition-transform"
+  >
+    <div class="flex flex-col">
+      <p class="text-sm font-bold text-blue-200">{{ day }}</p>
+      <p class="text-xl md:text-2xl font-black text-white mt-1">{{ icon }}</p>
     </div>
-
-    <div class="text-2xl group-hover:scale-125 transition-transform duration-500">
-      {{ icon }}
-    </div>
-
-    <div class="flex items-center gap-3">
-        
-      <span class="text-lg font-black text-white">{{ maxTemp }}°</span>
-      <span class="text-sm font-medium text-slate-500">{{ minTemp }}°</span>
+    <div class="text-right">
+      <p class="text-sm text-white/70">Max: {{ maxTemp }}°</p>
+      <p class="text-sm text-white/70">Min: {{ minTemp }}°</p>
     </div>
   </div>
 </template>

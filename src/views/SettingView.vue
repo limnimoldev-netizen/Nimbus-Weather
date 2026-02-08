@@ -4,8 +4,10 @@ defineProps(['modelValue']);
 // Emits allow this child to tell the parent when a button was clicked
 const emit = defineEmits(['update:modelValue']);
 </script>
+
 <template>
-  <div class="relative min-h-screen overflow-hidden">
+  
+  <div class="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-950 via">
     <video
       autoplay
       muted
