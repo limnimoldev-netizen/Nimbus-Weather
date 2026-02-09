@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router'
 import './assets/main.css' 
 import 'leaflet/dist/leaflet.css'
-// import '@fortawesome/fontawesome-free/css/all.css'
 
 
 

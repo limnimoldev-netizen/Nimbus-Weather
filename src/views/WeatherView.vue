@@ -115,11 +115,11 @@ function handleSearch(cityName) {
             <p class="text-xs sm:text-sm md:text-base text-indigo-300 uppercase tracking-widest mb-1 sm:mb-2">
                {{ timeOfDay }}
             </p>
-            <h2 class="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white drop-shadow-md leading-tight">
+            <h2 class="text-xl sm:text-xl md:text-5xl font-extrabold text-white drop-shadow-md leading-tight">
               {{ city }}
             </h2>
-            <p class="text-[9px] sm:text-xs md:text-sm font-bold text-indigo-200 uppercase tracking-widest mt-1 sm:mt-2">
-              Live Weather • {{ todayDate }}
+            <p class="text-[2px] sm:text-xs font-bold text-indigo-200 uppercase tracking-widest mt-1 sm:mt-2">
+              Live Weather  {{ todayDate }}
             </p>
           </div>
 
@@ -263,7 +263,6 @@ function handleSearch(cityName) {
             
             <router-link to="/search" class="group flex items-center gap-3 sm:gap-4 bg-white/5 hover:bg-blue-600 backdrop-blur-md border border-white/10 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-2xl sm:rounded-[2rem] transition-all duration-500 shadow-2xl hover:shadow-blue-500/40">
             
-              <span class="text-xl sm:text-2xl md:text-2xl group-hover:rotate-12 transition-transform">📍</span>
               <span class="font-black text-sm sm:text-lg md:text-xl tracking-tight">Change Location</span>
               <span class="ml-1 sm:ml-2 opacity-0 group-hover:opacity-100 transition-opacity">➜</span>
           

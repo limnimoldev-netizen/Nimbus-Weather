@@ -26,13 +26,15 @@
            
             <input type="password" placeholder="Enter your password"class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:ring-2 focus:ring-sky-400 outline-none placeholder-white/50 transition-all"/></div>  
 
-            <button type="submit"class="w-full py-3 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-xl shadow-lg shadow-sky-800/50 transform transition active:scale-95">
-                Log In</button>
+            <a href="/home" class="block w-full py-3 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-xl shadow-lg shadow-sky-800/50 text-center transition active:scale-95">
+          
+                Log In  </a>
+          
 
         </form> 
 
         <p class="text-center mt-4 text-sm text-blue-200">Don't have an account? 
-            <a href="/register" class="text-sky-400 font-semibold hover:underline">Sign up</a>
+            <a href="/" class="text-sky-400 font-semibold hover:underline">Sign up</a>
         </p>
 
         </div>  

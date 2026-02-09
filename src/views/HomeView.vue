@@ -35,32 +35,28 @@ const todayDate = ref(new Date().toLocaleDateString())
     <div class="min-h-screen bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-950 text-white font-sans p-4 sm:p-6 md:p-10">
         <div class="max-w-6xl mx-auto">
 
-          <header class="relative w-full h-[400px] sm:h-[500px] md:h-[600px] mb-10 rounded-3xl overflow-hidden">
+          <header class="relative w-full h-[400px] sm:h-[400px] md:h-[500px] mb-10   rounded-3xl overflow-hidden">
             
             <div class="absolute inset-0 bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-950"></div>
-            <div class="absolute top-10 left-0 w-[200px] h-[80px] bg-white/20 rounded-full animate-clouds"></div>    
+            <!-- <div class="absolute top-10 left-0 w-[200px] h-[80px] bg-white/20 rounded-full animate-clouds"></div>    
             <div class="absolute top-32 left-[-100px] w-[150px] h-[60px] bg-white/20 rounded-full animate-clouds delay-2000"></div>
             
-            <div class="absolute top-20 right-[-120px] w-[180px] h-[70px] bg-white/25 rounded-full animate-clouds delay-4000"></div>
+            <div class="absolute top-20 right-[-120px] w-[180px] h-[70px] bg-white/25 rounded-full animate-clouds delay-4000"></div> -->
 
             <div class="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center h-full p-6 sm:p-10">
               
               <div class="w-full md:w-auto text-left md:text-left">
               
-              
-                <p class="text-xs sm:text-sm md:text-base text-indigo-300 uppercase tracking-widest mb-1 sm:mb-2">
-                  {{ timeOfDay }}
+                <p class="text-[9px] sm:text-xs md:text-sm text-indigo-200 uppercase tracking-widest mt-1 sm:mt-2">
+                  Explore the world 
+
                 </p>
               
-              
-                <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
-                  Welcome to Nimbus Home
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg">
+                  Welcome to Numburs Weather
                 </h1>
                 
-                <p class="text-[9px] sm:text-xs md:text-sm text-indigo-200 uppercase tracking-widest mt-1 sm:mt-2">
-                  Explore the world • {{ todayDate }}
-              
-                </p>
+                
 
               </div>
 
@@ -71,7 +67,7 @@ const todayDate = ref(new Date().toLocaleDateString())
               
                 <div class="flex flex-col">
                   
-                  <p class="text-xl sm:text-2xl md:text-3xl font-bold">--°C</p>
+                  <p class="text-xl sm:text-2xl md:text-3xl font-bold">32°C</p>
                   
                   
                   <p class="text-indigo-200/50 text-xs sm:text-sm mt-1">Current Temp</p>
@@ -89,7 +85,7 @@ const todayDate = ref(new Date().toLocaleDateString())
 
             <section class="col-span-12 mb-6">
               
-              <h3 class="text-sm sm:text-base md:text-base font-extrabold text-indigo-400 uppercase tracking-widest mb-2 sm:mb-4">Trending Cities</h3>
+              <h3 class="text-sm sm:text-base md:text-base font-extrabold text-white uppercase tracking-widest mb-2 sm:mb-4">Trending Cities</h3>
               
               <div class="flex gap-3 sm:gap-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-indigo-500/50 scrollbar-track-indigo-900/20">
               
@@ -113,7 +109,7 @@ const todayDate = ref(new Date().toLocaleDateString())
 
             <section class="col-span-12 lg:col-span-6 mb-6 bg-indigo-800/20 backdrop-blur-md border border-indigo-400/20 rounded-3xl p-4 sm:p-6 md:p- shadow-lg">
               
-              <h3 class="text-sm sm:text-base md:text-sm font-extrabold text-indigo-300 uppercase tracking-widest mb-4">Daily Weather Tips</h3>
+              <h3 class="text-sm sm:text-base md:text-sm font-extrabold text-white  uppercase tracking-widest mb-4">Daily Weather Tips</h3>
               
               <div class="flex flex-col gap-2 sm:gap-3">
             
@@ -125,14 +121,14 @@ const todayDate = ref(new Date().toLocaleDateString())
 
             <section class="col-span-12 lg:col-span-6 mb-6">
               
-              <h3 class="text-sm sm:text-base md:text-sm font-extrabold text-indigo-400 uppercase tracking-widest mb-2 sm:mb-4">Seasonal Highlights</h3>
+              <h3 class="text-sm sm:text-base font-extrabold text-white  uppercase tracking-widest mb-2 ">Seasonal Highlights</h3>
               
               <div class="flex gap-3 sm:gap-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-indigo-500/50 scrollbar-track-indigo-900/20">
                 
                 <div v-for="item in seasonalHighlights" :key="item.title" class="min-w-[100px]  bg-blue-900/20 backdrop-blur-md border border-blue-400/20 rounded-3xl p-3 flex flex-col items-center text-center hover:bg-blue-800/40 transition-all duration-300">
                   
                   
-                  <span class="text-2xl sm:text-3xl md:text-4xl mb-1">{{ item.icon }}</span>
+                  <span class="text-xl sm:text-3xl md:text-4xl mb-1">{{ item.icon }}</span>
                   <span class="text-xs sm:text-sm md:text-base font-semibold text-indigo-200">{{ item.title }}</span>
                 
                   <span class="text-sm sm:text-base md:text-lg font-black text-white">{{ item.value }}</span>
